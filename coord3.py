@@ -32,4 +32,4 @@ print(f'Coordenadas HJC derecho: {HJCright}')
 smartAppendPoint(acq, "HJC_L", HJCleft)
 smartAppendPoint(acq, "HJC_R", HJCright)
 
-smartWriter(acq, copia_HJC.c3d)
+smartWriter(acq, "copia_HJC.c3d")
