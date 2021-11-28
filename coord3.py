@@ -27,3 +27,9 @@ HJCright = get_hjc(LLR)
 #print(f'Coordenadas SACR: {sacr[4,:]}')
 print(f'Coordenadas HJC izquierdo: {HJCleft}')
 print(f'Coordenadas HJC derecho: {HJCright}')
+
+# 
+smartAppendPoint(acq, "HJC_L", HJCleft)
+smartAppendPoint(acq, "HJC_R", HJCright)
+
+smartWriter(acq, copia_HJC.c3d)
